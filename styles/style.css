@@ -1,1 +1,13 @@
 /* Style sheet for my personal website */
+
+.nav-link:hover {
+    color: orange;
+}
+
+.navbar-brand:hover {
+    color: pink;
+}
+
+.nav-link:active {
+    color: red;
+}
