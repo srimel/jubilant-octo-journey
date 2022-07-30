@@ -1,22 +1,29 @@
 /* Style sheet for my personal website */
 
-
+@keyframes colorCycle {
+    0% {
+      color: #ee6055;
+    }
+    25% {
+      color: #60d394;
+    }
+    50% {
+      color: #aaf683;
+    }
+    75% {
+      color: #ffd97d;
+    }
+    100% {
+      color: #ff9b85;
+    }
+  }
 .navbar-brand {
-    color: pink;
-}
-.navbar-brand:hover {
-    color: pink;
-}
-.navbar-brand:active {
-    color: pink;
-}
-.navbar-brand:visited {
-    color: pink;
+    animation-name: colorCycle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .nav-link:hover {
     color: orange;
-}
-.nav-link:active {
-    color: greenyellow;
 }
