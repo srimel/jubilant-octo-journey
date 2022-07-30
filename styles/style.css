@@ -1,13 +1,22 @@
 /* Style sheet for my personal website */
 
-.nav-link:hover {
-    color: orange;
-}
 
 .navbar-brand {
     color: pink;
 }
+.navbar-brand:hover {
+    color: pink;
+}
+.navbar-brand:active {
+    color: pink;
+}
+.navbar-brand:visited {
+    color: pink;
+}
 
+.nav-link:hover {
+    color: orange;
+}
 .nav-link:active {
     color: red;
 }
