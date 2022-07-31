@@ -27,3 +27,8 @@
 .nav-link:hover {
     color: orange;
 }
+
+.my-banner {
+  width: 100%;
+  height: auto;
+}
