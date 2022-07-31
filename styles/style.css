@@ -26,6 +26,7 @@
 
 .nav-link:hover {
     color: orange;
+    font-style: italic;
 }
 
 .my-banner {
@@ -35,4 +36,5 @@
 
 .my-title {
   font-size: xx-large;
+  font-style: italic;
 }
