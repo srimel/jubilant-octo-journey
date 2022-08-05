@@ -23,17 +23,14 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
 .nav-link:hover {
     color: orange;
     /* font-style: italic; */
 }
-
 .my-banner {
   width: 100%;
   height: auto;
 }
-
 .my-title {
   font-size: xx-large;
   font-style: italic;
@@ -50,7 +47,7 @@
   border-radius: 100%;
   display: block;
   margin: auto;
-  transition: transform 2s ease-in-out; 
+  transition: transform 2.5s ease-in-out; 
 }
 .about-photo:hover {
   transform: rotate(360deg);
