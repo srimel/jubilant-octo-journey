@@ -46,27 +46,26 @@
 .page {
   color: #c4bfb7;
 }
-
 .about-photo {
   border-radius: 100%;
   display: block;
   margin: auto;
+  transition: transform 2s ease-in-out; 
 }
-
+.about-photo:hover {
+  transform: rotate(360deg);
+}
 .about-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 .about-text {
   font-size: 1.2rem;
 }
-
 @media only screen and (max-width: 767px) {
   .about-title {
     margin-top: 80px;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .about-photo {
     margin-top: 0;
