@@ -19,7 +19,7 @@
       <img src="./images/code1_cropped.jpg" alt="" class="my-banner" />
       <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="./index.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="35"
@@ -48,10 +48,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Previous Work</a>
+                <a class="nav-link" href="#prev-work">Previous Work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Projects</a>
@@ -106,12 +106,32 @@
           </div>
         </div>
       </section>
-      <section id="prev-work"></section>
+      <section id="prev-work">
+        <div class="container">
+          <div class="jumbotron w-80 mx-auto">
+            <h2 class="title">Previous Work</h2>
+            <p class="lead">
+              I currently do not have any previous experience in the tech
+              industry as I am coming from the lab science world. Here I will
+              outline some of my interests in the field and classes that I have
+              taken so far.
+            </p>
+            <p class="lead">
+              I am currently working as a technical course support specialist
+              (TCSS) for the intro to computer science series of classes at PSU
+              from Fall term 2021 to current date:
+              <mark id="curr-date">targus</mark> .
+            </p>
+            <hr class="my-4" />
+          </div>
+        </div>
+      </section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/curr-date.js"></script>
   </body>
 </html>
