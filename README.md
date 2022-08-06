@@ -1,7 +1,6 @@
 # jubilant-octo-journey
-Personal website
+*Professional* Website made for the final project assignment of CS510: Intro to WebDev at PSU.
 
-Inspiration for the css color cycle animation for the navbar-brand element: 
-  https://techstacker.com/how-to-loop-background-color-animation-css/
-
-
+## References used:
+- [Inspiration for the css color cycle](https://techstacker.com/how-to-loop-background-color-animation-css/)
+- [Implementation of spinning image](https://stackoverflow.com/questions/23695090/spin-or-rotate-an-image-on-hover)
