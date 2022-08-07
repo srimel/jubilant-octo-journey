@@ -52,8 +52,12 @@
 .about-text {
   font-size: 1.2rem;
 }
-mark {
-  background-color:azure;
+td, th {
+  color: #c4bfb7;
+}
+.collapse h5 {
+  color: #ff9b85;
+  font-style: italic;
 }
 @media only screen and (max-width: 767px) {
   .about-title {
