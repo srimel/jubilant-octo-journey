@@ -23,7 +23,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-.nav-link:hover {
+.nav-link:hover, a:hover {
     color: orange;
 }
 .my-banner {
