@@ -46,7 +46,7 @@
 .about-photo:hover {
   transform: rotate(360deg);
 }
-.title, .about-title {
+.title, .about-title, .form-title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .about-text {
