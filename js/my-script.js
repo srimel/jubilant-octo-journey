@@ -20,7 +20,7 @@ form.addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
     let user = checkInput(document.getElementById('name').value);
     let email = document.getElementById('email').value;
-    let msg = document.getElementById('textArea').value;
+    let msg = checkInput(document.getElementById('textArea').value);
     console.log(
         `Form Submission
         Name: ${user}
